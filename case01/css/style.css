@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.form__container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100vh;
+    font-family: 'Raleway', sans-serif;
+}
+.form__label-name,
+.form__label-surname,
+.form__label-age{
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+}
+.form__input-name,
+.form__input-surname,
+.form__input-age{
+    margin-bottom: 15px;
+    border: none;
+    font-size: 1.1rem;
+    border-bottom: 1px solid #c3c3c4;
+    height: 1.8rem;
+}
+.form__input-name:focus,
+.form__input-surname:focus,
+.form__input-age:focus{
+ outline: none;
+}
+.form__button{
+    margin-top: 10px;
+    width: 70%;
+    height: 2.5rem;
+    border-radius: 20px;
+    border: 1px solid #ffaf1b;
+    background-color: transparent;
+    font-size: 1.1rem;
+    cursor: pointer;
+}
+.form__button:active{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 4px #ffaf1b;
+}
